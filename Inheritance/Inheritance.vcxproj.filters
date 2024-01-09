@@ -4,10 +4,30 @@
     <Filter Include="Main">
       <UniqueIdentifier>{dabd86f0-0cf2-4c0a-9d13-25e4e94636c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Student">
+      <UniqueIdentifier>{9c5b2538-1814-491c-b126-fd3b7ed026f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aspirant">
+      <UniqueIdentifier>{f91552b7-5312-49ff-93ab-28e666f7ebf5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Aspirant.cpp">
+      <Filter>Aspirant</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h">
+      <Filter>Student</Filter>
+    </ClInclude>
+    <ClInclude Include="Aspirant.h">
+      <Filter>Aspirant</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
